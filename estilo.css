@@ -1,0 +1,29 @@
+
+html{box-sizing:border-box;
+font-size: 62,5%;}
+
+*,*:after,*:before{box-sizing: inherit;}
+
+
+@media(min-width:768px){
+    .principal{display:grid;
+        grid-template-columns: repeat(4,1fr);
+        column-gap: 1rem;}
+    
+    .seccion{grid-column: 1/2;}
+    .seccion1{grid-column: 2/3;}
+    .seccion2{grid-column: 3/4;}
+    .seccion3{grid-column: 4/5;}
+}
+
+body{font-size:16px; 
+    }
+
+p {color:yellow;
+background-color: red;
+padding-bottom: 14rem;
+}
+
+#distinto{color:white;
+    background-color: black;}
+
